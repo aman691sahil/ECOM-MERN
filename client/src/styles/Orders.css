@@ -1,0 +1,89 @@
+/* Orders.css */
+
+.dashboard {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  /* Table Styling */
+  .table {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .table thead th {
+    background-color: #343a40;
+    color: #ffffff;
+    font-weight: 600;
+  }
+  
+  .table tbody tr {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tbody td {
+    vertical-align: middle;
+  }
+  
+  /* Order Card Styling */
+  .card {
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img-top {
+    border-radius: 8px 0 0 8px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-body p {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .card-body p.price {
+    font-weight: 600;
+    color: #17a2b8;
+  }
+  
+  /* Status Badge Styling */
+  .status-badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .status-success {
+    background-color: #28a745;
+  }
+  
+  .status-failed {
+    background-color: #dc3545;
+  }
+  
+  /* Header Styling */
+  h1.text-center {
+    margin-bottom: 20px;
+    color: #343a40;
+    font-weight: 600;
+  }
+  

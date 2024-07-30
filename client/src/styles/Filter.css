@@ -1,0 +1,138 @@
+/* Homepage.css */
+
+/* General Styling */
+.home-page {
+    padding: 20px;
+  }
+  
+  /* Banner Image */
+  .banner-img {
+    margin-bottom: 20px;
+  }
+  
+  /* Filters Section */
+  .filters {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Filter Headings */
+  .filters h4 {
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Custom Checkbox Styling */
+  .filters .ant-checkbox-wrapper {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .filters .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+  }
+  
+  .filters .ant-checkbox-inner {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .filters .ant-checkbox-inner::after {
+    left: 22%;
+  }
+  
+  /* Custom Radio Button Styling */
+  .filters .ant-radio-wrapper {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .filters .ant-radio-checked .ant-radio-inner {
+    border-color: #17a2b8;
+  }
+  
+  .filters .ant-radio-inner {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .filters .ant-radio-inner::after {
+    background-color: #17a2b8;
+    width: 12px;
+    height: 12px;
+  }
+  
+  /* Reset Filters Button */
+  .filters .btn-danger {
+    margin-top: 20px;
+  }
+  
+  /* Cards Section */
+  .card {
+    width: 22rem;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-img-top {
+    border-radius: 8px 8px 0 0;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-name-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .card-price {
+    color: #17a2b8;
+  }
+  
+  .card-text {
+    margin-bottom: 10px;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    border: none;
+  }
+  
+  .btn-dark {
+    background-color: #343a40;
+    border: none;
+  }
+  
+  /* Load More Button */
+  .loadmore {
+    background-color: #17a2b8;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .loadmore:hover {
+    background-color: #138496;
+  }
+  

@@ -1,0 +1,34 @@
+/* Categories.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.category-card  {
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none; /* Remove underline */
+  color: black; /* Default text color */
+  background: linear-gradient(135deg, #f0f0f0, #b0b0b0); /* Add gradient background */
+  border-radius: 8px; /* Add rounded corners */
+  padding: 20px; /* Add padding */
+}
+
+.category-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none; /* Remove underline on hover */
+  background: linear-gradient(to bottom right, #00C0FF, #4218B8); /* Dark gradient background on hover */
+  color: white; /* Text color on hover */
+}
+
+.category-card .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.category-card .card-title {
+  font-weight: 600;
+  font-size: 1.25rem; /* Increase font size */
+}
